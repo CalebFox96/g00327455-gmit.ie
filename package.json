@@ -29,8 +29,8 @@
   "repository": {
     "type": "git",
     "engines": {
-      "node": "12.4.0",
-      "npm": "6.9.0"
+      "node": "12.16.1",
+      "npm": "6.13.4"
     }
   }
 }
