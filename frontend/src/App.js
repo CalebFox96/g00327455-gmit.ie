@@ -62,8 +62,7 @@ function App() {
                         <Route path="/register" component={RegisterScreen} />
                         <Route path="/products/:id" component={ProductScreen} />
                         <Route path="/cart/:id?" component={CartScreen} />
-                        <Route path="/" exact={true} component={HomeScreen} />
-
+                        <Route path="/" component={HomeScreen} />
                     </div>
                 </main>
                 <footer className="footer">
