@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Donedeal</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="CarMenu()">
+                    &#9776;
+                </button>
+                <a href="index.html">DoneDeal</a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3>Car Brands</h3>
+            <button class="close-sidebar" onclick="CloseCarMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">BMW</a>
+                </li>
+                <li>
+                    <a href="index.html">Audi</a>
+                </li>
+                <li>
+                    <a href="index.html">Ford</a>
+                </li>
+                <li>
+                    <a href="index.html">Renault</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images\car1.jpeg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">BMW520d</a>
+                            </div>
+                            <div class="product-brand">BMW</div>
+                            <div class="price">€10,000</div>
+                            <div class="mileage">100,000</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images\car1.jpeg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">BMW520d</a>
+                            </div>
+                            <div class="product-brand">BMW</div>
+                            <div class="price">€10,000</div>
+                            <div class="mileage">100,000</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images\car1.jpeg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">BMW520d</a>
+                            </div>
+                            <div class="product-brand">BMW</div>
+                            <div class="price">€10,000</div>
+                            <div class="mileage">100,000</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images\car1.jpeg" alt="product">
+                            <div class="product-name">
+                                <a href="product.html">BMW520d</a>
+                            </div>
+                            <div class="product-brand">BMW</div>
+                            <div class="price">€10,000</div>
+                            <div class="mileage">100,000</div>
+                        </div>
+                    </li>
+
+                    <li>Car 1</li>
+
+                </ul>
+        </main>
+        <footer class="footer">
+            Mini Project Caleb Fox & Evan Garvey
+        </footer>
+    </div>
+    <script>
+        function CarMenu() {
+            document.querySelector(".sidebar").classList.add("open");
+        }
+
+        function CloseCarMenu() {
+            document.querySelector(".sidebar").classList.remove("close");
+        }
+    </script>
+
+</body>
+
+</html>
