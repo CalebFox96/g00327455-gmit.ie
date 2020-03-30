@@ -2,5 +2,5 @@ import dotenv from 'dotenv';
 dotenv.config();
 export default {
     MONGODB_URL: process.env.MONGODB_URL || 'mongodb://localhost/CloudCompFinal',
-    JWT_SECRET: process.env.JWT_SECRET || 'somethingsecret'
+    JWT_SECRET: process.env.JWT_SECRET || 'somethingsecret',
   }

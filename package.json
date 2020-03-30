@@ -27,5 +27,11 @@
   },
   "author": "",
   "license": "ISC",
-  "engines": {"node":"12.4.0","npm":"6.9.0"}
+  "repository": {
+    "type": "git",
+    
+  "engines": {
+    "node":"12.4.0",
+    "npm":"6.9.0"}
+  }
 }

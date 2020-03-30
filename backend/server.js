@@ -5,7 +5,6 @@ import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import userRoute from './routes/userRoute';
 
-dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;
 mongoose.connect(mongodbUrl, {
